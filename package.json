@@ -1,0 +1,28 @@
+{
+  "name": "waterline-support",
+  "version": "0.1.0",
+  "description": "waterline support",
+  "main": "lib/index.js",
+  "bin": {
+    "waterline": "./bin/waterline"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [],
+  "author": "MRW Neundorf <m.neundorf@live.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "sails-memory": "^0.10.7",
+    "should": "^9.0.2",
+    "waterline": "^0.12.2"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "knex": "^0.11.7",
+    "lodash": "^4.13.1",
+    "require-dir": "^0.3.0",
+    "umigrate": "^0.4.73"
+  }
+}
